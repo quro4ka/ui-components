@@ -1,0 +1,36 @@
+.input {
+    width: 100%;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #a5a5a5;
+    color: #3c3c3c;
+    background-color: transparent;
+    
+    &::placeholder {
+        color: #3c3c3c;
+
+    }
+}
+
+.input__pink {
+    color: #684b78;
+    border-bottom: 1px solid #b898c9;
+
+    &::placeholder {
+        color: #684b78;
+
+    }
+}
+
+.input__dark {
+    color: #fff;
+    border-bottom: 1px solid #ebebeb;
+
+    &::placeholder {
+        color: #ebe9e9;
+    }
+}
